@@ -1,17 +1,74 @@
-/* Error: Can't find stylesheet to import.
- *    ,
- * 11 | @import "contact-form";
- *    |         ^^^^^^^^^^^^^^
- *    '
- *   scss\estilo.scss 11:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a    \2577 \a 11 \2502  @import \"contact-form\";\d\a    \2502          ^^^^^^^^^^^^^^\a    \2575 \a   scss\\estilo.scss 11:9  root stylesheet";
+@import url("https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Great+Vibes&family=Kalam:wght@300&family=Roboto+Condensed&display=swap");
+* {
+  box-sizing: border-box;
 }
+
+body {
+  background-color: rgb(68, 65, 65);
+  color: aliceblue;
+}
+
+.texto-superpuesto {
+  font-family: "Great Vibes", cursive;
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.menuNav a {
+  text-transform: uppercase;
+  font-size: 1, 2rem;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding: 0;
+}
+.menuNav a:hover {
+  background-color: blueviolet;
+}
+
+.logoPage {
+  border-radius: 500px;
+  width: 200px;
+}
+
+.content {
+  background-color: gray;
+  color: aliceblue;
+  padding: 0 1.5em;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.G {
+  background-color: blue;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+h1 {
+  font-family: "Great Vibes", cursive;
+  font-size: 75px;
+  text-align: center;
+  text-decoration: underline;
+  margin: 20px 0px;
+  color: blue;
+}
+
+h3 {
+  text-align: center;
+}
+
+.encabezado {
+  background-color: blue;
+}
+
+/*# sourceMappingURL=estilo.css.map */
